@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shashwat Singh</title>
+<meta name="description" content="Master in Public Policy candidate at the Harvard Kennedy School, working on technology policy and the measurement questions underneath it.">
+<meta property="og:title" content="Shashwat Singh">
+<meta property="og:description" content="Technology policy, quantitative evidence, and the governance of AI systems.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --surface:#fcfcfb; --surface-2:#f5f4f0; --ink:#13120f; --ink-2:#4a4843;
+  --muted:#86837b; --rule:#e3e1d8; --accent:#2a78d6; --accent-2:#c4551f;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --measure:40rem;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --surface:#14140f; --surface-2:#1d1d17; --ink:#f2f0e9; --ink-2:#c3c0b5;
+    --muted:#8b8880; --rule:#2f2f27; --accent:#7eb0ef; --accent-2:#e6904f;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--surface); color:var(--ink);
+  font-family:var(--sans); font-size:17px; line-height:1.65;
+  -webkit-font-smoothing:antialiased; font-feature-settings:"kern","liga";
+}
+.wrap{max-width:var(--measure); margin:0 auto; padding:0 1.5rem}
+a{color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; transition:border-color .15s ease}
+a:hover{border-bottom-color:currentColor}
+h1,h2,h3{font-family:var(--serif); font-weight:500; letter-spacing:-.012em; line-height:1.2; margin:0}
+
+/* ---------- header ---------- */
+header{padding:5.5rem 0 0}
+h1{font-size:clamp(2.3rem,6.5vw,3.1rem); letter-spacing:-.022em}
+.standfirst{
+  font-family:var(--serif); font-size:clamp(1.12rem,2.6vw,1.3rem); line-height:1.5;
+  color:var(--ink-2); margin:1.1rem 0 0; max-width:34rem;
+}
+.links{display:flex; flex-wrap:wrap; gap:.4rem 1.4rem; margin:1.9rem 0 0; font-size:.93rem}
+.links a{color:var(--ink-2); border-bottom:1px solid var(--rule)}
+.links a:hover{color:var(--accent); border-bottom-color:var(--accent)}
+
+/* ---------- sections ---------- */
+section{padding:3.6rem 0 0}
+.label{
+  font-size:.72rem; font-weight:600; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--muted); margin:0 0 1.5rem; padding-bottom:.7rem; border-bottom:1px solid var(--rule);
+}
+p{margin:0 0 1.1rem}
+.prose{color:var(--ink-2)}
+.prose strong{color:var(--ink); font-weight:600}
+
+/* ---------- work ---------- */
+.work{display:flex; flex-direction:column; gap:3.2rem}
+.item h3{font-size:1.32rem; margin-bottom:.1rem}
+.item h3 a{color:var(--ink); border-bottom:1px solid var(--rule)}
+.item h3 a:hover{color:var(--accent); border-bottom-color:var(--accent)}
+.meta{font-size:.82rem; color:var(--muted); margin:.35rem 0 .9rem; letter-spacing:.01em}
+.meta .dot{opacity:.45; padding:0 .45rem}
+.item p{color:var(--ink-2); margin-bottom:.9rem}
+.thumb{
+  display:block; margin:1.3rem 0 0; border:1px solid var(--rule); border-radius:3px;
+  overflow:hidden; background:var(--surface-2);
+}
+.thumb img{display:block; width:100%; height:auto}
+@media (prefers-color-scheme:dark){ .thumb img{opacity:.9} }
+.tags{display:flex; flex-wrap:wrap; gap:.45rem; margin:1rem 0 0}
+.tag{
+  font-size:.74rem; letter-spacing:.02em; color:var(--muted);
+  border:1px solid var(--rule); border-radius:2px; padding:.16rem .52rem;
+}
+
+/* ---------- experience ---------- */
+.role{padding:1.5rem 0; border-top:1px solid var(--rule)}
+.role:first-of-type{border-top:0; padding-top:0}
+.role-head{display:flex; flex-wrap:wrap; justify-content:space-between; gap:.2rem 1rem; align-items:baseline}
+.role-head h3{font-size:1.1rem}
+.years{font-size:.82rem; color:var(--muted); font-variant-numeric:tabular-nums; white-space:nowrap}
+.org{font-size:.9rem; color:var(--ink-2); margin:.15rem 0 .7rem}
+.role ul{margin:0; padding-left:1.1rem; color:var(--ink-2); font-size:.95rem}
+.role li{margin:0 0 .4rem}
+.role li::marker{color:var(--muted)}
+
+/* ---------- footer ---------- */
+footer{margin-top:4.5rem; padding:2rem 0 4rem; border-top:1px solid var(--rule); color:var(--muted); font-size:.85rem}
+footer a{color:var(--muted); border-bottom:1px solid var(--rule)}
+footer a:hover{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Shashwat Singh</h1>
+  <p class="standfirst">
+    Master in Public Policy candidate at the Harvard Kennedy School, concentrating in
+    technology policy. I work on the measurement questions underneath policy decisions
+    &mdash; and I am moving toward the governance of AI systems.
+  </p>
+  <nav class="links">
+    <a href="mailto:sshashwat@hks.harvard.edu">sshashwat@hks.harvard.edu</a>
+    <a href="https://github.com/shashwat6singh">GitHub</a>
+    <a href="https://www.linkedin.com/in/shashwat-singh-27774a21">LinkedIn</a>
+    <a href="assets/Shashwat_Singh_CV.pdf">CV&nbsp;(PDF)</a>
+  </nav>
+</header>
+
+<section>
+  <h2 class="label">About</h2>
+  <div class="prose">
+    <p>
+      Before Harvard I spent three years at <strong>J-PAL South Asia</strong>, where the job
+      was making state welfare delivery legible: designing a phone-audit system that
+      surfaced <strong>65% inclusion errors</strong> in beneficiary verification, scaling it
+      to ten district call centres, and translating what the data showed into something
+      senior officials could act on.
+    </p>
+    <p>
+      That work left me with a particular interest: the gap between what a measurement
+      system is claimed to establish and what it actually establishes. It is the same gap
+      that runs through AI governance &mdash; in evaluations, capability thresholds, and the
+      evidence offered for deployment decisions. I want to be technically literate enough
+      to argue about eval methodology, and to do that work on the policy side.
+    </p>
+    <p>
+      The projects below are from my first semester at HKS. Each is a complete, runnable
+      analysis rather than a write-up, and each is explicit about what its data cannot
+      support.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2 class="label">Selected work</h2>
+  <div class="work">
+
+    <article class="item">
+      <h3><a href="https://github.com/shashwat6singh/ma-homelessness-trend-break">A level break, not a rising trend</a></h3>
+      <p class="meta">Memo to the Governor of Massachusetts<span class="dot">&middot;</span>R<span class="dot">&middot;</span>HUD Point-in-Time counts, 2007&ndash;2025</p>
+      <p>
+        The standard framing &mdash; homelessness has been rising for a decade &mdash; does not
+        fit Massachusetts. The state shows no detectable upward trend from 2007 to 2022
+        (slope p = 0.82), then a 89% jump in two years that a Chow test separates from
+        trend at F(2,15) = 8.53, p = 0.003. Families are 89.6% of the increase; homelessness
+        among individuals actually <em>fell</em>.
+      </p>
+      <p>
+        Those are different problems with different instruments. The memo is equally
+        explicit about what 19 state-years cannot do: describe structure, yes; identify a
+        cause, no.
+      </p>
+      <a class="thumb" href="https://github.com/shashwat6singh/ma-homelessness-trend-break">
+        <img src="assets/homelessness.png" alt="Massachusetts homelessness rate per 10,000 residents, 2007 to 2025, flat until 2022 then breaking sharply above the pre-2023 prediction band" loading="lazy">
+      </a>
+      <div class="tags"><span class="tag">R</span><span class="tag">Structural break</span><span class="tag">Policy memo</span></div>
+    </article>
+
+    <article class="item">
+      <h3><a href="https://github.com/shashwat6singh/house-2026-forecast">Forecasting the 2026 U.S. House</a></h3>
+      <p class="meta">Monte Carlo simulation<span class="dot">&middot;</span>Python<span class="dot">&middot;</span>435 districts, 10,000 runs</p>
+      <p>
+        Treat 435 races as independent coin flips and the Democrats clear a majority in
+        <strong>100.0%</strong> of simulations. Decision Desk HQ, using the <em>same</em>
+        district probabilities, published about 78%. The probabilities were never the
+        disagreement &mdash; the dependence structure was.
+      </p>
+      <p>
+        The model adds correlation by sharing random draws across Census divisions and
+        nationally, which widens the distribution without disturbing any district's
+        marginal win rate &mdash; a property the code measures rather than asserts. It is the
+        same arithmetic that makes a portfolio look safe in a stress test.
+      </p>
+      <a class="thumb" href="https://github.com/shashwat6singh/house-2026-forecast">
+        <img src="assets/house-forecast.png" alt="Histogram of Democratic seats across 10,000 simulated elections, centred near 238 with runs below the 218-seat majority line shaded" loading="lazy">
+      </a>
+      <div class="tags"><span class="tag">Python</span><span class="tag">Monte Carlo</span><span class="tag">Correlated risk</span></div>
+    </article>
+
+    <article class="item">
+      <h3><a href="https://github.com/shashwat6singh/nyc-311-service-delivery">What a service-request dataset only appears to say</a></h3>
+      <p class="meta">Descriptive analysis<span class="dot">&middot;</span>R and Python<span class="dot">&middot;</span>NYC 311, ~4,800 requests</p>
+      <p>
+        Four bugs that run without error and produce charts you would believe: a filter
+        applied before grouping that silently answers a different question, negative
+        resolution times from records closed before they were created, an average of
+        averages that gives a two-case category the weight of a 400-case one, and a
+        24-month series collapsed into 12.
+      </p>
+      <p>
+        Also a taxonomy covering all 123 complaint types, built to <strong>fail loudly</strong>
+        rather than quietly drop what it does not recognise.
+      </p>
+      <a class="thumb" href="https://github.com/shashwat6singh/nyc-311-service-delivery">
+        <img src="assets/nyc311.png" alt="Nine small-multiple panels showing each New York borough's share of 311 requests by complaint cluster against a citywide reference line" loading="lazy">
+      </a>
+      <div class="tags"><span class="tag">R</span><span class="tag">Python</span><span class="tag">Data quality</span></div>
+    </article>
+
+  </div>
+</section>
+
+<section>
+  <h2 class="label">Experience</h2>
+
+  <div class="role">
+    <div class="role-head">
+      <h3>Research Associate</h3>
+      <span class="years">2024&ndash;2026</span>
+    </div>
+    <p class="org">Abdul Latif Jameel Poverty Action Lab (J-PAL) South Asia &mdash; Bhubaneswar, India</p>
+    <ul>
+      <li>Designed and implemented a phone-audit monitoring system that found 65% inclusion errors in beneficiary verification for state welfare schemes.</li>
+      <li>Scaled that system to ten district call centres, training staff and drafting the protocols behind it.</li>
+      <li>Analysed survey and administrative data in R and Stata, writing reproducible code whose findings were used by principal investigators.</li>
+      <li>Served as day-to-day counterpart to the state Labour Department and an implementing NGO partner; briefed senior officials and translated quantitative findings into recommendations non-technical decision-makers could act on.</li>
+      <li>Hired, trained and managed twelve field staff; co-led registration pilots that enrolled 100 workers into a state benefits scheme, subsequently scaled across two counties.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <h3>Research Intern</h3>
+      <span class="years">2023&ndash;2024</span>
+    </div>
+    <p class="org">J-PAL South Asia &mdash; Patna, India</p>
+    <ul>
+      <li>Automated Stata scripts to flag real-time data inconsistencies, cutting resolution time by 40%.</li>
+      <li>Built and piloted the field instruments used to estimate programme treatment effects.</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <h3>Research Intern</h3>
+      <span class="years">2019</span>
+    </div>
+    <p class="org">Delhi Integrated Multi Modal Transit System (DIMTS) &mdash; Delhi, India</p>
+    <ul>
+      <li>Assessed the economic feasibility of a standard-floor CNG bus by Monte Carlo simulation; the analysis found it infeasible and the pilot was not implemented.</li>
+      <li>Led a feeder-bus pilot aimed at last-mile connectivity in the Delhi NCR region.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2 class="label">Education</h2>
+  <div class="role">
+    <div class="role-head">
+      <h3>Master in Public Policy</h3>
+      <span class="years">Expected 2028</span>
+    </div>
+    <p class="org">Harvard Kennedy School &mdash; concentration in Technology Policy</p>
+    <ul>
+      <li>Computational Policy Analysis; Big Tech, Competition Policy &amp; AI; Policy Design &amp; Delivery.</li>
+      <li>AI &amp; Tech Policy Caucus; Consulting Club at HKS.</li>
+    </ul>
+  </div>
+  <div class="role">
+    <div class="role-head">
+      <h3>M.A. Economics</h3>
+      <span class="years">2023</span>
+    </div>
+    <p class="org">South Asian University, New Delhi &mdash; specialisation in Development Economics</p>
+    <ul>
+      <li>Thesis: the effect of bank mergers on Indian commercial bank efficiency, using data envelopment analysis and the Malmquist productivity index on panel data.</li>
+    </ul>
+  </div>
+  <div class="role">
+    <div class="role-head">
+      <h3>B.A. Economics</h3>
+      <span class="years">2021</span>
+    </div>
+    <p class="org">Hindu College, University of Delhi</p>
+  </div>
+</section>
+
+<section>
+  <h2 class="label">Writing</h2>
+  <div class="prose">
+    <p>
+      &ldquo;RBI Rate Hike, its Impact and the Road Ahead.&rdquo;
+      <em>The Great Western Journal</em>, 2023.
+    </p>
+    <p>
+      White paper on the economic feasibility of a standard-floor CNG-propelled bus in
+      Delhi. DIMTS, 2019.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>
+    Cambridge, Massachusetts &middot;
+    <a href="mailto:sshashwat@hks.harvard.edu">sshashwat@hks.harvard.edu</a>
+  </p>
+</footer>
+
+</div>
+</body>
+</html>
